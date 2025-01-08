@@ -8,40 +8,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3309385171220984559, guid: 89a75b4b59c47dd44b4f16bf9d629567,
+        type: 3}
+      propertyPath: hitPoints
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309385171220984559, guid: 89a75b4b59c47dd44b4f16bf9d629567,
+        type: 3}
+      propertyPath: scoreValue
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -83.5
+      value: -215.3
       objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 67.358765
       objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.0691376
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.5202433
       objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.8540181
       objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
@@ -51,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 117.303
       objectReference: {fileID: 0}
     - target: {fileID: 4591849287301403506, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
@@ -91,7 +101,7 @@ PrefabInstance:
     - target: {fileID: 9001749744145205238, guid: 89a75b4b59c47dd44b4f16bf9d629567,
         type: 3}
       propertyPath: m_Name
-      value: Enemy 3
+      value: Alazaki
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
