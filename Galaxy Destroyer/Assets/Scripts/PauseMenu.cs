@@ -3,20 +3,19 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenuUI; // Pause Menüsü için UI Panel
+    public GameObject pauseMenuUI; 
 
-    private bool isPaused = false; // Oyunun duraklatýlýp duraklatýlmadýðýný kontrol eder
+    private bool isPaused = false; 
 
     void Start()
     {
-        // Oyun baþladýðýnda Pause Menüsü gizlenir
+        
         pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;  // Oyun baþladýðýnda zaman ölçeði normal olmalý
+        Time.timeScale = 1f;  
     }
 
     void Update()
     {
-        // ESC tuþuna basýldýðýnda Pause/Resume arasýnda geçiþ yap
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
@@ -32,27 +31,27 @@ public class PauseMenu : MonoBehaviour
 
     public void ResumeGame()
     {
-        pauseMenuUI.SetActive(false); // Pause menüsünü kapat
-        Time.timeScale = 1f;          // Oyunu normal hýzda çalýþtýr
+        pauseMenuUI.SetActive(false); 
+        Time.timeScale = 1f;          
         isPaused = false;
     }
 
     public void PauseGame()
     {
-        pauseMenuUI.SetActive(true); // Pause menüsünü aç
-        Time.timeScale = 0f;         // Oyunu durdur
+        pauseMenuUI.SetActive(true); 
+        Time.timeScale = 0f;         
         isPaused = true;
     }
 
     public void LoadMainMenu()
     {
-        Time.timeScale = 1f; // MainMenu'ya geçerken zaman ölçeðini 1 yap
+        Time.timeScale = 1f; 
         SceneManager.LoadScene("MainMenu");
     }
 
     public void StartGame()
     {
-        Time.timeScale = 1f; // MainMenu'dan oyuna baþlarken zaman ölçeðini 1 yap
+        Time.timeScale = 1f; 
         SceneManager.LoadScene("MainLevel");
     }
 }
